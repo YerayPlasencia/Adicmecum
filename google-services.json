@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "556096956831",
+    "firebase_url": "https://adicmecum-default-rtdb.firebaseio.com/",
+    "project_id": "adicmecum",
+    "storage_bucket": "adicmecum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556096956831:android:801028eddb568a886475aa",
+        "android_client_info": {
+          "package_name": "com.cip.yerayplasenciaramos.adicmecum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556096956831-6c3bsvf3iuer5mmpua5fo0f6ft2pu0fg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cip.yerayplasenciaramos.adicmecum",
+            "certificate_hash": "89bdcdfa4b59dc2366ccb98778c2a46413f17121"
+          }
+        },
+        {
+          "client_id": "556096956831-oe1qbjmgrp262s5trehj3jnb1r7euolg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl6wE1jehmGUbHCPqM2pGMS8YdGlWXpUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556096956831-oe1qbjmgrp262s5trehj3jnb1r7euolg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

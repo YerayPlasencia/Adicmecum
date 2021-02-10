@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradiente_background">
+
+
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="117dp"
+        android:layout_height="68dp"
+        android:background="@drawable/btn_logout"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="Cerrar Sesión"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_farmacos"
+        android:layout_width="235dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="156dp"
+        android:text="Fármacos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_congresos"
+        android:layout_width="235dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="40dp"
+        android:text="Cursos y Congresos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_farmacos"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_recursos"
+        android:layout_width="235dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="172dp"
+        android:text="Recursos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_farmacos"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/userNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
